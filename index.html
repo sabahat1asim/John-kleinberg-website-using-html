@@ -1,108 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Developer Survey Form</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
-</head>
-<body>
-   
-    <div id="heading">
-    <h1 id=title> <strong> Developer! Survey Form </strong></h1>
-    <p id="description"> Thank you for taking the time.We would like  to know about programming languages and frameworks that are using for web developnment! Every Developers suggestion are very essential to us!</p>
-    </div>
-    <div id="main">
-        <form id="survey-form">
-        <div id="input-fields">
-            <label id="name-label"><b>Name:</b></label>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>John kleinberg website </title>
+  </head>
+  <body>
 
-            <br>
-            <br>
-            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
-            <label id="email-label"><b>Email:</b></label>
+    <h1>John Kleinberg</h1>
+    <p><em>Tisch University Professor</em></p>
+    <p>Department of Computer Science</p>
+    <p>Department of Information Science</p>
+    <p>Cornell University</p>
+    <p> <em>Ithaca, NY 14853</em></p>
+    <p><em>I am a professor at Cornell University. My research focuses on the interaction of algorithms and networks, the roles they play in large-scale social and information systems, and their broader societal implications. My work has been supported by an NSF Career Award, an ONR Young Investigator Award, a MacArthur Foundation Fellowship, a Packard Foundation Fellowship, a Simons Investigator Award, a Sloan Foundation Fellowship, a Vannevar Bush Faculty Fellowship, and grants from Facebook, Google, Yahoo, the MacArthur Foundation, the ARO, and the NSF. I am a member of the National Academy of Sciences, the National Academy of Engineering, and the American Academy of Arts and Sciences.</em></p>
+    <p>Link to: Contact information.</p>
+    <hr>
 
-            <br>
-            <br>
-        
-    
-            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
-             
-            <br>
-            <label id="number-label"><b>Age:</b></label>
-            <br>
-            <br>
-            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
-         </div>
-         <div id="dropdown-div"><br>
-            <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
-            <br>
-            <select id="dropdown" name="code-lang" class="form">
-                <option value="C">C (Programming Language)</option>
-                <option value="html">HTML</option>
-                <option value="CSS">CSS</option>
-                <option value="Js">Java Script</option>
-                <option value="c sharp">c#</option>
-                <option value="C++">C++</option>
-                <option value="Java">Java</option>
-                <option value="Rubby">Rubby</option>
-            </select>
-         </div>
-         <div id="button-area">
-             <br>
-            <label id="job-label"><b>Employment Status:</b></label><br>
-            <input type="radio" class="radio-inline" name="gender" value="employed" checked> Full-time job holder.(Employed)<br>
-            <input type="radio" class="radio-inline" name="gender" value="freelancer"> Part-time job holder.(Freelancer)<br>
-            <input type="radio" class="radio-inline" name="gender" value="applier"> Looking for a job.(Applier)<br>
-            <input type="radio" class="radio-inline" name="gender" value="unemployed"> I am a student.(Unemployed)
-          </div>
-          
+    <h3>Books and Teaching</h3>
 
-          <div id="dropdown"><br><br>
-            <label id="dropdown-label"><strong>Programming language you wanna be expert: </strong></label><br>
-            <select id="dropdown" name="code-lang" class="form"><br><br>
-                <option value="C">C (Programming Language)</option>
-                <option value="Python">Python</option>
-                <option value="C#">C#</option>
-                <option value="php">PHP</option>
-                <option value="Js">Java Script</option>
-                <option value="Go">Go (Programming Language)</option>
-                <option value="ruby">Ruby on rails</option>
-                <option value="C++">C++</option>
-                <option value="Java">Java</option>
-            </select>
-         </div>
-          <div id="button-area"><br><br>
-            <label id="os-label"><b>Latest technology FrameWork :</b></label><br>
+    <ul>
+            <li>In Spring 2021, Karen Levy and I taught a new course, Choices and Consequences in Computing (INFO 1260 / CS 1340). The course is designed at an introductory level with no formal prerequisites, and will cover a range of ethical, societal, and policy implications of computing and information.
+            </li>
 
-            <input type="checkbox" name="tech1" value="React"> Flutter <br>
-            <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
-            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
-            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
-            <input type="checkbox" name="tech3" value="git"> Github<br>
-            <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
-          </div>
-          <!-- Would you recommend freeCodeCamp to a friend? -->
+            <li>D. Easley, J. Kleinberg. Networks, Crowds, and Markets: Reasoning About a Highly Connected World. Cambridge University Press, 2010.
+                <ul>
+                <li><em>This book is based on an inter-disciplinary course that we teach entitled Networks. The book, like the course, is designed at the introductory undergraduate level with no formal prerequisites. To support deeper explorations, most of the chapters are supplemented with optional advanced sections.</em></li>
 
-          <div id="button-area1">
-            <br>
-           <label id="job-label"><b>Would you recommend WEB DEVELOPER  as a career?</b></label><br>
-           <input type="radio" class="radio-inline" name="Definitely" value="employed" checked> Definitely<br>
-           <input type="radio" class="radio-inline" name="May be" value="freelancer"> May be<br>
-           <input type="radio" class="radio-inline" name="Not sure" value="applier"> Not sure<br>
-           
-         </div>
 
-          <div id="ending"><br><br>
-            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
-            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
-            <input id="submit" type="submit"  class="form">
-          </div>
-        </form>
-    </div>
+        </ul>
+        <li>J. Kleinberg, E. Tardos. Algorithm Design. Addison Wesley, 2005
 
-</body>
+            <ul>
+                <li><em>This book is based on the undergraduate algorithms course that we both teach. We also use the more advanced parts for our graduate algorithms course.</em></li>
+            </ul>
 
+            <li>An on-line course on edX entitled Networks, Crowds, and Markets, with David Easley and Eva Tardos.</li>
+
+            <li>Recent courses at Cornell
+
+            <ul>
+                <li><em><a href="Seminar on Information Networks.html">Seminar on Information Networks   (CS 7850).</a></em></li>
+            </ul>
+
+            <ul>
+                <li><em><a href="Networks .html">Networks     (with David Easley and Eva Tardos; ECON 2040 / SOC 2090 / CS 2850 / INFO 2040).</a></em></li>
+            </ul>
+
+            
+            </ul>
+  </body>
 </html>
